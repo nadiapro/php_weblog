@@ -1,0 +1,143 @@
+            * {
+                font-family: irannastaliq;
+                direction: rtl;
+                box-sizing: border-box;
+            }
+            
+            header {
+                border-top: 3px solid blueviolet;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+            
+            .menu {
+                width: 50%;
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            img {
+                width: 17%;
+            }
+            
+            header a {
+                text-decoration: none;
+                color: black;
+                font-size: 30px;
+                font-weight: bold;
+            }
+            
+            .intro {
+                background-color: blueviolet;
+                color: white;
+                text-align: center;
+                font-size: 50px;
+                padding: 20px;
+            }
+            
+            form,
+            input {
+                margin-top: 10px;
+                width: 100%;
+                border-radius: 2%;
+            }
+            
+            .cont {
+                display: flex;
+                justify-content: center;
+                margin-top: 15px;
+            }
+            
+            main {
+                background-color: aliceblue;
+                width: 80%;
+            }
+            
+            ul {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                list-style-type: none;
+            }
+            
+            li {
+                width: 30%;
+                font-size: 17px;
+            }
+            
+            .about {
+                background-color: blueviolet;
+                color: white;
+                text-align: center;
+                border-radius: 1%;
+                margin-top: 10px;
+                padding: 2%;
+                font-size: 20px;
+                line-height: 40px;
+            }
+            
+            footer a {
+                text-decoration: none;
+                color: white;
+                width: 10%;
+            }
+            
+            footer {
+                display: flex;
+                justify-content: center;
+                background-color: blueviolet;
+                margin-top: 10px;
+                margin-bottom: 20px;
+                font-size: 20px;
+            }
+            
+            @font-face {
+                font-family: 'irannastaliq';
+                src: url('irannastaliq.eot') format('eot');
+                src: url('irannastaliq.ttf') format('ttf');
+                src: url('irannastaliq.woff') format('woff');
+            }
+            
+            @media screen and (min-width: 300px) {
+                li {
+                    width: 100%;
+                }
+                header a {
+                    font-size: 20px;
+                }
+                .menu {
+                    width: 100%;
+                }
+                img {
+                    width: 30%;
+                }
+            }
+            
+            @media screen and (min-width: 700px) {
+                li {
+                    width: 50%;
+                }
+                header a {
+                    font-size: 20px;
+                }
+                .menu {
+                    width: 70%;
+                }
+                img {
+                    width: 25%;
+                }
+            }
+            
+            @media screen and (min-width: 1100px) {
+                li {
+                    width: 30%;
+                }
+                .menu {
+                    width: 50%;
+                }
+                img {
+                    width: 17%;
+                }
+            }
