@@ -13,7 +13,7 @@
                 foreach($results as $result){?>
                 <div class="carousel-inner">
                     <div class="carousel-item <?php echo $result['status']?>">
-                        <img src="<?php echo $result['image']?>" class="d-block w-100 h-50" height="300px" alt="picture">
+                        <img src="../images/<?php echo $result['image']?>" class="d-block w-100 h-50" height="300px" alt="picture">
                         <div class="carousel-caption d-none d-md-block">
                             <h5><?php echo $result['title']?></h5>
                             <p><?php echo substr($result['body'],0,100)."..."?></p>
@@ -57,7 +57,7 @@
                 ?>
                 <div class="mt-2 p-2 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="card">
-                    <img src="<?php echo $result['image'] ?>" class="card-img-top" alt="...">
+                    <img src="../images/<?php echo $result['image'] ?>" class="card-img-top" alt="...">
                     <div class="card-body">
                         <div class="d-flex justify-content-between">
                             <h5 class="card-title"><?php echo $result['title'] ?></h5>
